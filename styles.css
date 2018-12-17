@@ -1,0 +1,286 @@
+.section {
+    transform: translateX(18%);
+    display:flex;
+    justify-content:flex-end;
+    width: 87.5%;
+    height: 100%;
+    margin-left:-3%;
+    margin-right:-3%;
+    display:flex;
+}
+
+.header {
+    display:flex;
+    background: #DCD0C0;
+    width: 69%;
+    height: 210px;
+    justify-content:center;
+    margin:2%;
+    vertical-align:middle;
+  
+}
+
+.title {
+    vertical-align:middle;
+    text-align:center;
+    font-style:italic;
+}
+
+
+.slogan {
+    text-align:center;
+    font-family: 'Yesteryear', cursive;
+    font-size:300%;
+    color:#373737;
+    font-style:italic;
+    
+}
+
+h2 {
+    color:#373737;
+    font-style:italic;
+   
+}
+    
+.left {
+    display:flex; 
+    flex-direction:column;
+    background-color:#e5dab6;
+    width: 30%;
+    margin-left: 1.4%;
+    margin-bottom: 3%;
+    height:100%;
+    padding: 2%;
+}
+
+.menu {
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+    background-color: #F4F4F4;
+  
+}
+
+.column {
+    flex-direction:column;
+    display:flex;
+    width: 100%;  
+    margin-top: -80.5%;
+    
+}
+
+
+.lefttwo { 
+    display:flex; 
+    flex-direction:column;
+    background-color:#f0e0d7;
+    width:30%;
+    margin-left: 1.4%;
+    margin-bottom: 3%;
+    height: 100%;
+    padding: 2%;
+}
+
+.moreinfo {
+    display:flex;
+    float: left;
+    text-align:center;
+    justify-content:center;
+    height: 100%;
+}
+
+.bottom {
+    display:flex;
+    float:bottom;
+    margin-top:auto;
+    background-color:#DCD0C0;
+    width: 100%;
+    height:90%;
+    justify-content:center;
+  
+}
+
+h3 {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.images {
+    display:flex;
+    width:62.5%;
+    justify-content:center;
+    margin:10px;
+    text-align:center;
+    transform: translateX(58%);
+    margin-top:2%;
+   
+    
+}
+
+.one {
+    width: 200px;
+    height:200px;
+    padding-right:3%;
+}
+
+.two {
+    width: 200px;
+    height:200px;
+    padding-right:3%;
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes box {
+    from {box-shadow: 0px 0px 0px;}
+    to {box-shadow :-5px 0px 0px #f0e0d7, -10px 0px 0px #DCAEAE; }
+}
+
+
+.three {
+    width: 200px;
+    height: 200px;
+}
+
+.button {
+    display:flex;
+    margin-right:auto;
+    background-color:#f0e0d7;
+    width:200px;
+    height:30px;
+    justify-content:center;
+    padding:10px;
+    margin-left:780px;
+    margin-top: 3%;
+    border: solid 4px #DCAEAE;
+    margin-bottom: -1%;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+    font-size: 190%;
+    font-family: 'Cardo', serif;
+    text-align:center;
+    color:#373737;
+}
+
+.button:hover {
+    background-color: #e5dab6;
+}
+
+iframe {
+    border:solid 10px #DCD0C0;
+}
+
+.new {
+    height:379px;
+    justify-content:center;
+    display:flex;
+    background: #DCD0C0;
+    width: 60%;
+    vertical-align:middle;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    margin-right:-3%;
+    transform:translateX(64%);
+    margin-top: 6%;
+}
+
+.more2 {
+    display:flex;
+    justify-content:flex-start;
+    height: 100%;
+}
+
+h4 {
+    text-align:center;
+    font-style:italic;
+}
+
+
+.imgleft {
+    display:flex;
+    vertical-align:middle;
+    width:200px;
+    height:200px;
+    float:left;
+    margin:5%;
+    transition:3s;
+    margin:5%;
+}
+
+.imgleft:hover {
+    width:300px;
+    height:300px;
+}
+.morep {
+    width:115px;
+    height:115px;
+    display:flex;
+    justify-content:flex-start;
+    margin: 7%;
+    vertical-align:middle;
+    transition:3s;
+}
+
+.morep:hover {
+    border-radius:50%;
+}
+
+.morep1 {
+    width:115px;
+    height:115px;
+    display:flex;
+    justify-content:flex-start;
+    margin: 7%;
+    vertical-align:middle;
+    transition:3s;
+}
+
+.morep1:hover {
+    width:120px;
+    height:120px;
+    transform: translateX(30%);
+}
+
+.morep2 {
+    width:115px;
+    height:115px;
+    display:flex;
+    justify-content:flex-start;
+    margin: 7%;
+    vertical-align:middle;
+    transition: 3s;
+}
+
+.morep2:hover {
+    width:120px;
+    height:120px;
+    transform: translateX(-80%);
+}
+h3 {
+    border: solid 6px #efe9c9;
+    padding: 1%;
+    font-family: 'Cardo', serif;
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    color:#373737;
+}
+
+.thank {
+    width:70%;
+    margin-top:-20%;
+    margin-bottom: -5%;
+}
